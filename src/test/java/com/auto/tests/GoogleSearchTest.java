@@ -1,10 +1,13 @@
-package tests;
+package com.auto.tests;
 
+
+import org.testng.annotations.Test;
 
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selenide.*;
 
-public class GoogleSearchTest {
+public class GoogleSearchTest extends TestBase{
+    @Test
     public static void main(String[] args) {
         // Mở trang Google
         open("https://www.google.com");

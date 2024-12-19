@@ -1,4 +1,4 @@
-package utilities;
+package com.auto.utilities;
 
 public class Constants {
     //URL
